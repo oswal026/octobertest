@@ -1,0 +1,17 @@
+title = "Aerolineas"
+url = "/aerolineas/:page?"
+layout = "default"
+meta_title = "Aerolineas"
+is_hidden = 0
+
+[builderList]
+modelClass = "Oswaldo\Airlines\Models\Aerolinea"
+scope = "-"
+displayColumn = "nombre"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+recordsPerPage = 2
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

@@ -1,0 +1,11 @@
+plugin:
+    name: Aerolineas
+    description: 'oswaldo.airlines::lang.plugin.description'
+    author: Oswaldo
+    icon: oc-icon-plane
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Aerolineas
+        url: oswaldo/airlines/aerolineas
+        icon: icon-plane

@@ -1,0 +1,10 @@
+name: Aerolineas
+form: $/oswaldo/airlines/models/aerolinea/fields.yaml
+modelClass: Oswaldo\Airlines\Models\Aerolinea
+defaultRedirect: oswaldo/airlines/aerolineas
+create:
+    redirect: 'oswaldo/airlines/aerolineas/update/:id'
+    redirectClose: oswaldo/airlines/aerolineas
+update:
+    redirect: oswaldo/airlines/aerolineas
+    redirectClose: oswaldo/airlines/aerolineas

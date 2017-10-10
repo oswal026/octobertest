@@ -1,0 +1,11 @@
+list: $/oswaldo/airlines/models/aerolinea/columns.yaml
+modelClass: Oswaldo\Airlines\Models\Aerolinea
+title: Aerolineas
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'oswaldo/airlines/aerolineas/update/:id'

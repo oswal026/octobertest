@@ -1,0 +1,4 @@
+title: Aerolineas
+modelClass: Oswaldo\Airlines\Models\Aerolinea
+toolbar:
+    buttons: reorder_toolbar
